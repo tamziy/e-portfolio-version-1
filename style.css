@@ -7,5 +7,13 @@
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6, span {
+    color: black;
+    text-align: center;
+    line-height: 1.25;
+}
 
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
