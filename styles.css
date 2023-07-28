@@ -100,11 +100,19 @@ nav {
   flex-direction: column;
 }
 
+.about-me__info {
+  display: flex;
+  flex-direction: column;
+}
+
 .about-me__info--container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 700px; 
+  margin: 0 auto;
+  text-align: center;
 }
 
 .about-me__picture--mask {
@@ -128,4 +136,21 @@ nav {
 .about-me__info--para {
   font-size: 20px;
   margin-bottom: 28px;
+}
+
+.about-me__link {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 0 12px;
+}
+
+.about-me__img--container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.about-me__img {
+  width: 100%;
 }
